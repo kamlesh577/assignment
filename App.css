@@ -1,0 +1,71 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+
+.information{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.information input{
+  width: 300px;
+  height: 50px;
+  font-size: 20px;
+  padding-left: 10px;
+  background-color: rgb(161, 154, 154);
+}
+
+.information button{
+  width: 300px;
+  height: 50px;
+  margin-top: 15px;
+  background-color: grey;
+
+}
+
+.information button:hover{
+  cursor: pointer;
+  background-color: green;
+}
+
+.update_button{
+
+  width: 200px;
+  height: 50px;
+
+}
+
+.employees
+{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.list_of_employee{
+   
+    width: 700px;
+    height: auto;
+    border: 1px solid black;
+    margin: 10px;
+    display: flex;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.list_of_employee h3 {
+  margin: 20px;
+  justify-content: center;
+}
